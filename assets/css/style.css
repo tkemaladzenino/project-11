@@ -181,6 +181,8 @@
   /*  ---------------------   second banner         -----------------------------------------*/
 
 
+
+
   .trending_collection {
       font-family: Work Sans;
       font-style: normal;
@@ -195,6 +197,7 @@
 
   .second_banner {
       background-color: #2b2b2b;
+      padding-bottom: 82px;
 
   }
 
@@ -267,4 +270,196 @@
       text-transform: capitalize;
 
       color: #FFFFFF;
+  }
+
+  .fox_div {
+      display: flex;
+      flex-direction: row;
+      gap: 12px;
+  }
+
+  .fox_div span {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+
+      color: #FFFFFF;
+  }
+
+
+  /*  ---------------------   third  banner         -----------------------------------------*/
+
+
+  .third_banner_text {
+      padding-top: 162px;
+  }
+
+  .top_text_third_banner {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 60px;
+  }
+
+  .top_creators {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 38px;
+      line-height: 120%;
+
+      text-transform: capitalize;
+      color: #FFFFFF;
+  }
+
+  .checkout {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 160%;
+      text-transform: capitalize;
+      color: #FFFFFF;
+  }
+
+  .third_banner_button {
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 30px;
+      gap: 12px;
+
+      width: 247px;
+      height: 60px;
+      background-color: #2b2b2b;
+
+      border: 2px solid #A259FF;
+      border-radius: 20px;
+
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+
+      text-align: center;
+
+      color: #FFFFFF;
+  }
+
+  .top_first_group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .button-right {
+      margin-left: auto;
+  }
+
+  /*--------------------*/
+
+
+  .women_1_img {
+
+      background-color: #3B3B3B;
+      width: 240px;
+      height: 238px;
+      position: relative;
+      border-radius: 20px;
+
+      justify-content: center;
+
+  }
+
+  .runking_number_1 {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: #2B2B2B;
+
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      position: absolute;
+
+      left: 20px;
+      top: 18px;
+
+  }
+
+  .runking_number_1 span {
+      font-family: Space Mono;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      color: #858584;
+
+  }
+
+  .img_women {
+      padding-left: 60px;
+      padding-top: 20px;
+
+  }
+
+  .keepitreal {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 140%;
+
+
+      text-align: center;
+      text-transform: capitalize;
+
+      color: #FFFFFF;
+
+
+  }
+
+  .total_sales {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+
+      text-align: right;
+
+      color: #858584;
+  }
+
+  .number_34 {
+      font-family: Space Mono;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+
+      color: #FFFFFF;
+
+  }
+
+  .keepitreal_div {
+      padding-top: 20px;
+      display: flex;
+      justify-content: center;
+
+  }
+
+  .total_number_div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      gap: 10px;
+
   }
