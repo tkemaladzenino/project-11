@@ -629,6 +629,7 @@
 
   .fifth_banner_text {
       padding-top: 80px;
+      padding-bottom: 80px;
 
   }
 
@@ -725,10 +726,10 @@
 
   .sixth_banner {
       padding-top: 80px;
-      padding-bottom: 80px;
+
   }
 
-  /*  ---------------------     banner         -----------------------------------------*/
+
 
 
 
@@ -858,7 +859,7 @@
       flex-direction: column;
       justify-content: flex-end;
       align-items: flex-start;
-      margin: 0 auto;
+
 
       padding: 30px;
       gap: 10px;
@@ -935,4 +936,56 @@
 
 
       color: #FFFFFF;
+  }
+
+
+
+
+  /*  ---------------------     banner         -----------------------------------------*/
+
+  .senventh_banner {}
+
+  .text-How_it {
+      padding-bottom: 10px;
+  }
+
+  .text-How_it span {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 38px;
+      line-height: 120%;
+
+      text-transform: capitalize;
+
+      color: #FFFFFF;
+  }
+
+  .text-Find_out {
+      padding-bottom: 48px;
+  }
+
+  .text-Find_out {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 160%;
+
+      text-transform: capitalize;
+
+      color: #FFFFFF;
+  }
+
+  .first-picture-div {
+
+      height: 439px;
+      display: flex;
+      padding-top: 20.83px;
+      padding-left: 20.83;
+
+
+      background: #3B3B3B;
+      border-radius: 20px;
+      justify-content: center;
   }
