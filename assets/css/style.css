@@ -10,15 +10,11 @@
 
 
 
-  .card {
+  .main1 {
       background-color: #2b2b2b;
   }
 
-  header {
-      background-color: #2b2b2b;
-
-
-  }
+  header {}
 
 
 
@@ -195,8 +191,8 @@
       color: #FFFFFF;
   }
 
-  .second_banner {
-      background-color: #2b2b2b;
+  .second {
+
       padding-bottom: 82px;
 
   }
@@ -481,11 +477,15 @@
 
   /*  ---------------------   fourth  banner         -----------------------------------------*/
 
+
+
+
   .top_text_fourth_banner {
       padding-top: 80px;
       padding-bottom: 60px;
-
   }
+
+
 
   .top_text_fourth_banner {
 
@@ -527,16 +527,6 @@
       color: #FFFFFF;
   }
 
-  .img_art {
-      position: absolute;
-      background: url(DALL·E 2022-10-04 17.38.png);
-      border-radius: 20px 20px 0px 0px;
-  }
-
-  .img_icon_art {
-      position: relative;
-  }
-
   .group2-1 {
       display: flex;
       flex-direction: row;
@@ -545,9 +535,104 @@
 
 
 
+  .img_icon_art {
+      background-image: url(../../images/Art-img1.png);
+      width: 100%;
+      height: 240px;
+      position: relative;
+      border-radius: 20px 20px 0px 0px;
+
+  }
+
+  .art-filter {
+      position: absolute;
+      height: 240px;
+      left: 0px;
+      right: 0px;
+      top: 0px;
+
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(7.5px);
+
+      border-radius: 20px 20px 0px 0px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+
+  .art-filter-svg {
+      position: absolute;
+
+  }
 
 
-  /*  ---------------------   fourth  banner         -----------------------------------------*/
+  .img_icon_collectibles {
+      background-image: url(../../images/img-background-2.png);
+      width: 100%;
+      height: 240px;
+      position: relative;
+      border-radius: 20px 20px 0px 0px;
+  }
+
+  .img_icon_music {
+      background-image: url(../../images/img-background-3.png);
+      width: 100%;
+      height: 240px;
+      position: relative;
+      border-radius: 20px 20px 0px 0px;
+  }
+
+  .img_icon_Photography {
+      background-image: url(../../images/img-background-4.png);
+      width: 100%;
+      height: 240px;
+      position: relative;
+      border-radius: 20px 20px 0px 0px;
+  }
+
+  .img_icon_Video {
+      background-image: url(../../images/img-background-5.png);
+      width: 100%;
+      height: 240px;
+      position: relative;
+      border-radius: 20px 20px 0px 0px;
+  }
+
+  .img_icon_Utility {
+      background-image: url(../../images/img-background-6.png);
+      width: 100%;
+      height: 240px;
+      position: relative;
+      border-radius: 20px 20px 0px 0px;
+  }
+
+  .img_icon_Sport {
+
+      background-image: url(../../images/img-background-7.png);
+      width: 100%;
+      height: 240px;
+      position: relative;
+      border-radius: 20px 20px 0px 0px;
+  }
+
+  .img_icon_Virtual_Worlds {
+      background-image: url(../../images/img-background87.png);
+      width: 100%;
+      height: 240px;
+      position: relative;
+      border-radius: 20px 20px 0px 0px;
+  }
+
+
+
+
+
+
+
+
+  /*  ---------------------   fifth  banner         -----------------------------------------*/
 
   .fifth_banner_text {
       padding-top: 80px;
@@ -642,4 +727,56 @@
       flex-direction: row;
       gap: 100px;
 
+  }
+
+  .sixth_banner {
+      padding-top: 80px;
+  }
+
+  /*  ---------------------     banner         -----------------------------------------*/
+
+
+
+
+  /*  ---------------------   sixth  banner         -----------------------------------------*/
+
+
+  .sixth_banner {}
+
+  .background-mushroom {
+      background-image: url(../../images/mushroom-big.jpg);
+      height: 640px;
+
+
+
+      background-size: cover;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+
+
+      width: 100%;
+
+      position: relative;
+
+
+  }
+
+  .transbox {
+
+      position: absolute;
+      height: 640px;
+      left: 0px;
+      right: 0px;
+      top: 0px;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 360px 195px 60px;
+
+
+      background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
   }
