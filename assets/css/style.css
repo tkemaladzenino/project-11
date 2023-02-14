@@ -179,19 +179,7 @@
 
 
 
-  .one {
-      width: 100%;
-  }
 
-
-
-  .three {
-      width: 100%;
-  }
-
-  .second_banner {
-      padding-bottom: 80px;
-  }
 
   .trending_collection {
       font-family: Work Sans;
@@ -283,6 +271,13 @@
       line-height: 140%;
 
       color: #FFFFFF;
+  }
+
+  .group-img-three {
+      display: flex;
+      flex-direction: row;
+      gap: 13px;
+      padding-top: 15px;
   }
 
 
@@ -1072,28 +1067,8 @@
 
 
 
-  .hggg {
-      position: absolute;
-      left: 8.33%;
-      right: 8.33%;
-      top: 8.33%;
-      bottom: 8.33%;
-
-      background: linear-gradient(101.76deg, #A259FF 11.55%, #3B3B3B 77.45%);
+  .eighth_banner {
+      padding-top: 40px;
   }
 
-  .gfcjgc {
-      position: absolute;
-      left: 19.57%;
-      right: 19.57%;
-      top: 19.57%;
-      bottom: 19.57%;
-
-      background: linear-gradient(100.92deg, rgba(162, 89, 255, 0) 13.57%, #FF6250 97.65%);
-  }
-
-
-
-  .jhj {
-      filter: blur(27px);
-  }
+  .frame {}
