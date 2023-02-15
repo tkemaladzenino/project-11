@@ -634,6 +634,12 @@
 
   /*  ---------------------   fifth  banner         -----------------------------------------*/
 
+
+  .footer1 {
+      padding-top: 44px;
+
+  }
+
   .fifth_banner_text {
       padding-top: 80px;
       padding-bottom: 80px;
@@ -948,7 +954,7 @@
 
 
 
-  /*  ---------------------     banner         -----------------------------------------*/
+  /*  ---------------------    seventh banner         -----------------------------------------*/
 
   .seventh_banner {
       padding-bottom: 80px;
@@ -1063,7 +1069,7 @@
   }
 
 
-
+  /*  ---------------------   eight  banner         -----------------------------------------*/
 
 
 
@@ -1173,4 +1179,150 @@
       width: 425px;
       position: relative;
 
+  }
+
+
+
+
+  /*  ---------------------    footer  banner         -----------------------------------------*/
+
+
+  .background-black {
+      display: flex;
+
+      height: 334px;
+      background-color: #3B3B3B;
+      background-size: cover;
+      width: 100%;
+      background-image: #3B3B3B;
+
+  }
+
+  .net-two1 {
+      display: flex;
+      flex-direction: row;
+      height: 32px;
+      align-items: center;
+      gap: 8px;
+
+  }
+
+  .text-NFT_marketplace {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+
+      color: #CCCCCC;
+  }
+
+  .text-div_footer {
+      padding-top: 20px;
+
+  }
+
+  .text_icons-div {
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  .text-Join_community {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+
+      color: #CCCCCC;
+  }
+
+  .icons_group-div {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+  }
+
+  .Explore span {
+      font-family: Space Mono;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 160%;
+      text-transform: capitalize;
+      color: #FFFFFF;
+  }
+
+  .text-footer_group-div span {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+
+      color: #CCCCCC;
+  }
+
+  .text-footer_group-div {
+      display: flex;
+      flex-direction: column;
+      padding-top: 25px;
+      gap: 20px;
+  }
+
+  .logo-weekly_digest {
+      padding-bottom: 25px;
+
+  }
+
+  .logo-weekly_digest span {
+      font-family: Space Mono;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 160%;
+
+      text-transform: capitalize;
+
+      color: #FFFFFF;
+  }
+
+
+  .subscribe_forms-div1 {
+      padding-top: 20px;
+      display: flex;
+      width: 425px;
+      position: relative;
+
+  }
+
+  .text-info-div {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+
+      color: #CCCCCC;
+  }
+
+  .divider {
+      padding-top: 16px;
+
+  }
+
+  .last_text-div span {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 110%;
+
+      color: #CCCCCC;
+  }
+
+  .last_text-div {
+      padding-top: 8px;
   }
