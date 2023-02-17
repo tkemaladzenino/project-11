@@ -10,6 +10,8 @@
 
 
 
+  @media screen and(max-width:760px) {}
+
   .main1 {
       background-color: #2b2b2b;
   }
@@ -171,15 +173,16 @@
 
   .img_hero_div {
       padding-top: 80px;
+
   }
 
 
   /*  ---------------------   second banner         -----------------------------------------*/
 
 
-
-
-
+  .second_banner {
+      padding-bottom: 82px;
+  }
 
   .trending_collection {
       font-family: Work Sans;
@@ -229,11 +232,12 @@
 
       gap: 10px;
 
-      width: 100px;
-      height: 100px;
+      height: 130px;
+      width: 100%;
 
       background: #A259FF;
       border-radius: 20px;
+
   }
 
   .box-number span {
@@ -278,16 +282,54 @@
       flex-direction: row;
       gap: 13px;
       padding-top: 15px;
+
+  }
+
+  .img-fluid {
+      height: auto;
+      width: 100%;
+  }
+
+  .img-cat {
+      width: 100%;
+  }
+
+  .img-bear {
+      width: 100%;
+  }
+
+  .img-mushr {
+      width: 100%;
+  }
+
+  .img-mushr-small {
+      width: 100%;
+
+  }
+
+  .img-man {
+      width: 100%;
+  }
+
+  .img-man-2 {
+      width: 100%;
   }
 
 
   /*  ---------------------   third  banner         -----------------------------------------*/
+  .texts-banner-3 {
 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
 
   .third_banner {
       padding-top: 80px;
       padding-bottom: 80px;
   }
+
+
 
   .top_text_third_banner {
       display: flex;
@@ -359,12 +401,14 @@
   .women_1_img {
 
       background-color: #3B3B3B;
-      width: 240px;
+      width: 100%;
       height: 238px;
+
       position: relative;
       border-radius: 20px;
 
       justify-content: center;
+
 
   }
 
@@ -397,8 +441,11 @@
   }
 
   .img_women {
-      padding-left: 60px;
+
+      display: flex;
       padding-top: 20px;
+      justify-content: center;
+
 
   }
 
@@ -501,7 +548,7 @@
 
   .img_fourth-1-div {
 
-      width: 240px;
+      width: 100%;
       height: 316px;
 
       background: #3B3B3B;
@@ -652,8 +699,8 @@
 
       padding: 0px;
 
-      width: 330px;
-      height: 469px;
+      width: 100%;
+      height: 100%;
 
       background: #3B3B3B;
       border-radius: 20px;
@@ -664,16 +711,16 @@
       flex-direction: column;
       gap: 5px;
       padding-top: 20px;
-
+      justify-content: center;
       padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 25px;
 
   }
 
   .two {
       display: flex;
       gap: 12px;
-      padding-bottom: 25px;
-
 
 
   }
@@ -713,8 +760,8 @@
   .two-1 {
       display: flex;
       flex-direction: row;
-      gap: 148px;
-      padding-bottom: 8px;
+      gap: 168px;
+
 
   }
 
@@ -733,7 +780,8 @@
   .two-2 {
       display: flex;
       flex-direction: row;
-      gap: 100px;
+      gap: 120px;
+
 
   }
 
@@ -938,7 +986,7 @@
 
   .hours-minut-second {
       display: flex;
-      gap: 38px;
+      gap: 44px;
 
 
       font-family: Space Mono;
@@ -1174,10 +1222,12 @@
   }
 
   .subscribe_forms-div {
-      padding-top: 40px;
+      margin-top: 40px;
       display: flex;
       width: 425px;
       position: relative;
+      background-color: #FFFFFF;
+      border-radius: 50%;
 
   }
 
