@@ -9,18 +9,138 @@
   }
 
 
-
-  @media screen and(max-width:760px) {}
-
   .main1 {
       background-color: #2b2b2b;
   }
 
-  header {}
+
+  /*--------------------------------header--------------------*/
+
+  @media screen and (max-width:768px) {
+      nav {
+          display: none;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .img_hero_div {
+          margin-top: 40px;
+          height: auto;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .discover {
+          font-size: 28px;
+          line-height: 110%;
+      }
+  }
 
 
+  @media screen and (max-width:768px) {
+      .ntf {
+          font-size: 16px;
+      }
+  }
 
-  .row {}
+  @media screen and (max-width:768px) {
+      .texts-div {
+          width: 315px;
+          height: auto;
+          padding-top: 40px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .getstart {
+
+          display: none !important;
+      }
+
+      .getstart1 {
+          width: 315px;
+          height: auto;
+          display: block !important;
+      }
+  }
+
+  .getstart1 {
+      display: none;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 50px;
+      gap: 12px;
+
+      width: 224px;
+      height: 60px;
+      border: none;
+
+      background: #A259FF;
+      border-radius: 20px;
+
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+
+      text-align: center;
+
+      color: #FFFFFF;
+
+      margin-top: 30px;
+  }
+
+
+  @media screen and (max-width:768px) {
+      .three_pairs {
+          display: none !important;
+      }
+
+      .three_pairs1 {
+          width: 315px;
+          gap: 30px;
+          justify-content: space-between;
+          display: flex !important;
+      }
+  }
+
+  .three_pairs1 {
+      display: none;
+      flex-direction: row;
+      gap: 30px;
+      padding-top: 30px;
+
+  }
+
+
+  @media screen and (max-width:768px) {
+      .row {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .img_hero_div {
+          padding-top: 40px;
+
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .k240k {
+          font-size: 22px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .tot {
+          font-size: 16px;
+      }
+  }
 
 
   .net-two svg {
@@ -85,14 +205,14 @@
 
       color: #FFFFFF;
       margin-bottom: 20px;
+
+      width: 100%;
   }
 
   .texts-div {
       width: 510px;
       height: 544px;
       padding-top: 80px;
-
-
   }
 
   .ntf {
@@ -173,11 +293,45 @@
 
   .img_hero_div {
       padding-top: 80px;
-
+      width: 100%;
+      height: auto;
   }
 
+  /*------------------------ end header ----------------------------------*/
 
   /*  ---------------------   second banner         -----------------------------------------*/
+
+
+  @media screen and (max-width:768px) {
+      .trending_collection {
+          font-size: 28px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .text_checkout {
+          font-size: 16px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .first_banner {
+          padding-bottom: 40px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .text_couple {
+          padding-top: 40px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .second_banner {
+          padding-bottom: 40px;
+      }
+  }
+
 
 
   .second_banner {
@@ -190,15 +344,13 @@
       font-weight: 600;
       font-size: 38px;
       line-height: 120%;
-
       text-transform: capitalize;
-
       color: #FFFFFF;
   }
 
   .first_banner {
 
-      padding-bottom: 82px;
+      padding-bottom: 80px;
 
   }
 
@@ -315,10 +467,107 @@
       width: 100%;
   }
 
+  /* ----------------------------------  end second banner -------------------------*/
+
 
   /*  ---------------------   third  banner         -----------------------------------------*/
-  .texts-banner-3 {
 
+
+  @media screen and (max-width:768px) {
+      .third_banner {
+          padding-bottom: 40px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .top_creators {
+          font-size: 28px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .checkout {
+          font-size: 28px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .top_first_group {
+          width: 315px;
+          height: auto;
+      }
+  }
+
+
+
+
+  @media screen and (max-width:768px) {
+      .women_1_img {
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          gap: 20px;
+
+      }
+  }
+
+
+  @media screen and (max-width:768px) {
+      .img-women {
+          width: 60px;
+          height: 60px;
+          justify-content: start;
+          align-items: center;
+
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .texts-banner-3 {
+          justify-content: start;
+
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .keepitreal {
+          width: 60px;
+          height: 60px;
+          justify-content: start;
+          align-items: center;
+      }
+  }
+
+
+
+
+
+
+  @media screen and (max-width:768px) {
+      .button-right {
+          display: none !important;
+      }
+
+      .button-right1 {
+          width: 315px;
+          height: 100%;
+          padding-top: 40px;
+          padding-bottom: 40px;
+          display: block !important;
+
+      }
+  }
+
+  .button-right1 {
+      display: none;
+  }
+
+
+
+
+
+
+  .texts-banner-3 {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -522,10 +771,20 @@
   /*  ---------------------   fourth  banner         -----------------------------------------*/
 
 
-  .fourth_banner {
-      padding-bottom: 80px;
+
+  @media screen and (max-width:768px) {
+      .top_text_fourth_banner {
+          padding-top: 40px;
+      }
+
+      .fourth_banner {
+          padding-bottom: 80px;
+
+      }
 
   }
+
+
 
   .top_text_fourth_banner {
       padding-top: 80px;
@@ -1201,8 +1460,8 @@
 
   .subscribe_forms {
       display: flex;
-      position: absolute;
-      right: 0;
+
+
 
       flex-direction: row;
 
@@ -1341,10 +1600,13 @@
 
 
   .subscribe_forms-div1 {
-      padding-top: 20px;
+      margin-top: 40px;
       display: flex;
       width: 425px;
       position: relative;
+      background-color: #FFFFFF;
+      border-radius: 50%;
+
 
   }
 
