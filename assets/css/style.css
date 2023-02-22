@@ -26,6 +26,7 @@
       .img_hero_div {
           margin-top: 40px;
           height: auto;
+
       }
   }
 
@@ -33,8 +34,10 @@
       .discover {
           font-size: 28px;
           line-height: 110%;
+          width: 100%;
       }
   }
+
 
 
   @media screen and (max-width:768px) {
@@ -72,7 +75,7 @@
       padding: 0px 50px;
       gap: 12px;
 
-      width: 224px;
+      width: 100%;
       height: 60px;
       border: none;
 
@@ -99,7 +102,7 @@
       }
 
       .three_pairs1 {
-          width: 315px;
+          width: 100%;
           gap: 30px;
           justify-content: space-between;
           display: flex !important;
@@ -538,32 +541,59 @@
       }
   }
 
-
-
+  @media screen and (max-width:768px) {
+      .button-right {
+          display: none;
+      }
+  }
 
 
 
   @media screen and (max-width:768px) {
-      .button-right {
+      .third_banner_button {
           display: none !important;
       }
 
-      .button-right1 {
+      .third_banner_button1 {
           width: 315px;
-          height: 100%;
+          height: auto;
           padding-top: 40px;
           padding-bottom: 40px;
+
+
           display: block !important;
 
       }
   }
 
-  .button-right1 {
+  .third_banner_button1 {
       display: none;
+
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 30px;
+      gap: 12px;
+
+      width: 247px;
+      height: 60px;
+      background-color: #2b2b2b;
+
+      border: 2px solid #A259FF;
+      border-radius: 20px;
+
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+
+      text-align: center;
+
+      color: #FFFFFF;
+
+
   }
-
-
-
 
 
 
@@ -775,15 +805,15 @@
   @media screen and (max-width:768px) {
       .top_text_fourth_banner {
           padding-top: 40px;
+          padding-bottom: 40px;
       }
-
-      .fourth_banner {
-          padding-bottom: 80px;
-
-      }
-
   }
 
+
+  .fourth_banner {
+      padding-bottom: 80px;
+
+  }
 
 
   .top_text_fourth_banner {
@@ -940,6 +970,66 @@
 
   /*  ---------------------   fifth  banner         -----------------------------------------*/
 
+  @media screen and (max-width:768px) {
+      .fifth_banner_text {
+          padding-top: 40px;
+          padding-bottom: 40px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .top_creators {
+          font-size: 28px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .checkout {
+          font-size: 16px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .third_banner_button {
+          display: none !important;
+      }
+
+      .third_banner_button2 {
+          width: 315px;
+          height: auto;
+          display: block !important;
+      }
+
+  }
+
+  .third_banner_button2 {
+
+      display: none;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 30px;
+      gap: 12px;
+
+      width: 247px;
+      height: 60px;
+      background-color: #2b2b2b;
+
+      border: 2px solid #A259FF;
+      border-radius: 20px;
+
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+
+      text-align: center;
+
+      color: #FFFFFF;
+  }
+
+
 
   .footer1 {
       padding-top: 44px;
@@ -1056,6 +1146,26 @@
 
   /*  ---------------------   sixth  banner         -----------------------------------------*/
 
+  @media screen and (max-width:768px) {
+      .background-mushroom {
+          background-image: url(../../images/img-mobile.png);
+          height: 590px;
+          width: 100%;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .transbox {
+
+          padding: 120px 195px 40px;
+          width: 100%;
+          height: 590px;
+          background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
+
+      }
+  }
+
+
 
   .sixth_banner {
       display: flex;
@@ -1063,6 +1173,7 @@
       flex-direction: column;
       gap: 30px;
   }
+
 
   .background-mushroom {
       background-image: url(../../images/mushroom-big.jpg);
@@ -1076,7 +1187,6 @@
       width: 100%;
 
       position: relative;
-
 
   }
 
@@ -1263,6 +1373,93 @@
 
   /*  ---------------------    seventh banner         -----------------------------------------*/
 
+
+  @media screen and (max-width:768px) {
+      .seventh_banner {
+          padding-top: 40px;
+          padding-bottom: 40px;
+
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .text-down-div {
+
+          width: 250px;
+          height: 117px;
+
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .text-How_it {
+          font-size: 28px;
+      }
+  }
+
+
+  @media screen and (max-width:768px) {
+      .text-Find_out {
+          font-size: 16px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .first-picture-div {
+          display: flex;
+          flex-direction: row;
+          gap: 28.33px;
+          width: 315px;
+          height: auto;
+          border-radius: 20px;
+
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .img-icon-div {
+
+          display: flex;
+          width: 100px;
+          height: auto;
+
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .img-icon-div img {
+
+          max-width: 100px;
+          max-height: 100px;
+
+      }
+  }
+
+
+  @media screen and (max-width:768px) {
+      .text-down-div {
+          width: 70%;
+          height: auto;
+
+
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .text-Setup {
+          font-size: 16px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .text-connect {
+          font-size: 12px;
+
+      }
+  }
+
+
+
   .seventh_banner {
       padding-bottom: 80px;
       padding-top: 80px;
@@ -1303,23 +1500,12 @@
 
   /*--------*/
 
-  .first-picture-div1 {
 
-      height: 439px;
-      display: flex;
-
-      background: #3B3B3B;
-      border-radius: 20px;
-      justify-content: center;
-      flex-direction: column;
-  }
 
   .first-picture-div {
-
-      height: 439px;
+      height: auto;
       display: flex;
-
-
+      width: 100%;
       background: #3B3B3B;
       border-radius: 20px;
       justify-content: center;
@@ -1333,7 +1519,6 @@
       padding-left: 60px;
       padding-right: 60px;
       justify-content: center;
-
 
   }
 
@@ -1368,17 +1553,84 @@
       display: flex;
       gap: 10px;
       flex-direction: column;
-
       padding-right: 30px;
       padding-left: 30px;
       padding-bottom: 30px;
-
   }
-
 
   /*  ---------------------   eight  banner         -----------------------------------------*/
 
+  @media screen and (max-width:768px) {
+      .frame {
+          background: none;
+          height: auto;
+          margin-bottom: 30px;
+      }
+  }
 
+  @media screen and (max-width:768px) {
+      .text-group-div {
+          padding-top: 30px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .text-Join {
+          font-size: 28px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .text-Get-exclusive {
+          font-size: 16px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .img-cosmonaut {
+          width: 315px;
+          height: 255px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .cosmonaut {
+          padding-top: 0px;
+      }
+  }
+
+
+  @media screen and (max-width:768px) {
+      .subscribe_forms-div2 {
+          flex-direction: column;
+          gap: 16px;
+          display: flex !important;
+          padding-top: 40px;
+          padding-bottom: 40px;
+      }
+
+      .subscribe_forms-div {
+          display: none !important;
+      }
+  }
+
+  .subscribe_forms-div2 {
+      display: none;
+  }
+
+  @media screen and (max-width:768px) {
+      .email-btn {
+          width: 100%;
+          height: 48px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .subscribe_forms {
+          width: 100%;
+          height: 48px;
+      }
+  }
 
   .eighth_banner {
       padding-top: 40px;
@@ -1394,7 +1646,6 @@
 
   .cosmonaut {
       padding-top: 60px;
-
   }
 
   .img-cosmonaut-div {
@@ -1404,9 +1655,8 @@
   .text-group-div {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 16px;
       padding-top: 79px;
-
   }
 
   .text-Join {
@@ -1415,9 +1665,7 @@
       font-weight: 600;
       font-size: 38px;
       line-height: 120%;
-
       text-transform: capitalize;
-
       color: #FFFFFF;
   }
 
@@ -1442,9 +1690,6 @@
 
       width: 425px;
       height: 60px;
-
-
-
       background: #FFFFFF;
       border-radius: 20px;
       font-family: Work Sans;
@@ -1453,27 +1698,17 @@
       font-size: 16px;
       line-height: 140%;
       border: none;
-
-
       color: #2B2B2B;
   }
 
   .subscribe_forms {
       display: flex;
-
-
-
       flex-direction: row;
-
       align-items: center;
-
-
       padding: 0px 50px;
       gap: 12px;
-
       width: 211px;
       height: 60px;
-
       background: #A259FF;
       border-radius: 20px;
       border: none;
@@ -1495,6 +1730,18 @@
 
   /*  ---------------------    footer  banner         -----------------------------------------*/
 
+  @media screen and (max-width:768px) {
+      .background-black {
+          width: 100%;
+          height: auto;
+
+      }
+  }
+
+
+  @media screen and (max-width:768px) {
+      .text-NFT_marketplace {}
+  }
 
   .background-black {
       display: flex;
