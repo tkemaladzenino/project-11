@@ -30,29 +30,6 @@
       }
   }
 
-  @media screen and (max-width:768px) {
-      .discover {
-          font-size: 28px;
-          line-height: 110%;
-          width: 100%;
-      }
-  }
-
-
-
-  @media screen and (max-width:768px) {
-      .ntf {
-          font-size: 16px;
-      }
-  }
-
-  @media screen and (max-width:768px) {
-      .texts-div {
-          width: 315px;
-          height: auto;
-          padding-top: 40px;
-      }
-  }
 
   @media screen and (max-width:768px) {
       .getstart {
@@ -104,6 +81,7 @@
       .three_pairs1 {
           width: 100%;
           gap: 30px;
+
           justify-content: space-between;
           display: flex !important;
       }
@@ -113,7 +91,7 @@
       display: none;
       flex-direction: row;
       gap: 30px;
-      padding-top: 30px;
+      padding-top: 40px;
 
   }
 
@@ -130,18 +108,6 @@
       .img_hero_div {
           padding-top: 40px;
 
-      }
-  }
-
-  @media screen and (max-width:768px) {
-      .k240k {
-          font-size: 22px;
-      }
-  }
-
-  @media screen and (max-width:768px) {
-      .tot {
-          font-size: 16px;
       }
   }
 
@@ -212,10 +178,24 @@
       width: 100%;
   }
 
+  @media screen and (max-width:768px) {
+      .discover {
+          font-size: 28px;
+      }
+  }
+
   .texts-div {
       width: 510px;
       height: 544px;
       padding-top: 80px;
+  }
+
+  @media screen and (max-width:768px) {
+      .texts-div {
+          width: 315px;
+          height: auto;
+          padding-top: 40px;
+      }
   }
 
   .ntf {
@@ -229,6 +209,12 @@
 
       color: #FFFFFF;
 
+  }
+
+  @media screen and (max-width:768px) {
+      .ntf {
+          font-size: 16px;
+      }
   }
 
   .getstart {
@@ -269,9 +255,13 @@
       display: flex;
       align-items: center;
       text-transform: capitalize;
-
-
       color: #FFFFFF;
+  }
+
+  @media screen and (max-width:768px) {
+      .k240k {
+          font-size: 22px;
+      }
   }
 
   .tot {
@@ -284,6 +274,12 @@
       text-transform: capitalize;
 
       color: #FFFFFF;
+  }
+
+  @media screen and (max-width:768px) {
+      .tot {
+          font-size: 16px;
+      }
   }
 
   .three_pairs {
@@ -323,11 +319,7 @@
       }
   }
 
-  @media screen and (max-width:768px) {
-      .text_couple {
-          padding-top: 40px;
-      }
-  }
+
 
   @media screen and (max-width:768px) {
       .second_banner {
@@ -377,6 +369,12 @@
       padding-bottom: 60px;
   }
 
+  @media screen and (max-width:768px) {
+      .text_couple {
+          padding-top: 40px;
+          padding-bottom: 40px;
+      }
+  }
 
 
   .box-number {
@@ -415,12 +413,21 @@
       font-weight: 600;
       font-size: 22px;
       line-height: 140%;
-
       text-transform: capitalize;
-
       color: #FFFFFF;
   }
 
+  @media screen and (max-width:768px) {
+      .second-2 {
+          display: none !important;
+      }
+
+      .second-3 {
+          display: none !important;
+      }
+
+
+  }
 
   .fox_div span {
       font-family: Work Sans;
@@ -431,6 +438,8 @@
 
       color: #FFFFFF;
   }
+
+
 
   .group-img-three {
       display: flex;
@@ -478,6 +487,60 @@
 
   @media screen and (max-width:768px) {
       .third_banner {
+
+          padding-top: 40px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .third_1 {
+          padding-bottom: 12px;
+      }
+
+      .third_2 {
+          padding-bottom: 12px;
+      }
+
+      .third_3 {
+          padding-bottom: 12px;
+      }
+  }
+
+
+  @media screen and (max-width:768px) {
+      .third_5 {
+          padding-bottom: 12px;
+      }
+
+      .third_6 {
+          padding-bottom: 12px;
+      }
+
+      .third_7 {
+          padding-bottom: 12px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .third_9 {
+          padding-bottom: 12px;
+      }
+
+      .third_10 {
+          padding-bottom: 12px;
+      }
+
+      .third_11 {
+          padding-bottom: 12px;
+      }
+  }
+
+  .keepitreal_div span {
+      width: auto;
+  }
+
+  @media screen and (max-width:768px) {
+      .twelve {
           padding-bottom: 40px;
       }
   }
@@ -502,15 +565,12 @@
   }
 
 
-
-
   @media screen and (max-width:768px) {
       .women_1_img {
           display: flex;
           justify-content: start;
           align-items: center;
           gap: 20px;
-
       }
   }
 
@@ -547,8 +607,6 @@
       }
   }
 
-
-
   @media screen and (max-width:768px) {
       .third_banner_button {
           display: none !important;
@@ -557,12 +615,8 @@
       .third_banner_button1 {
           width: 315px;
           height: auto;
-          padding-top: 40px;
           padding-bottom: 40px;
-
-
           display: block !important;
-
       }
   }
 
@@ -809,6 +863,23 @@
       }
   }
 
+  @media screen and (max-width:768px) {
+      .fourth-1 {
+          padding-bottom: 14px;
+      }
+
+      .fourth-2 {
+          padding-bottom: 14px;
+      }
+
+      .fourth-5 {
+          padding-bottom: 42px;
+      }
+
+      .fourth-6 {
+          padding-bottom: 14px;
+      }
+  }
 
   .fourth_banner {
       padding-bottom: 80px;
@@ -974,6 +1045,13 @@
       .fifth_banner_text {
           padding-top: 40px;
           padding-bottom: 40px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .fifth_bt {
+
+          margin-bottom: 40px;
       }
   }
 
@@ -1458,6 +1536,12 @@
       }
   }
 
+  @media screen and (max-width:768px) {
+      .text-connect {
+          font-size: 12px;
+
+      }
+  }
 
 
   .seventh_banner {
@@ -1734,14 +1818,9 @@
       .background-black {
           width: 100%;
           height: auto;
-
       }
   }
 
-
-  @media screen and (max-width:768px) {
-      .text-NFT_marketplace {}
-  }
 
   .background-black {
       display: flex;
