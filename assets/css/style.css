@@ -8,32 +8,17 @@
       src: url(../../fonts/WorkSans-Regular.ttf)
   }
 
-
   .main1 {
       background-color: #2b2b2b;
   }
 
-
   /*--------------------------------header--------------------*/
 
-  @media screen and (max-width:768px) {
-      nav {
-          display: none;
-      }
-  }
 
-  @media screen and (max-width:768px) {
-      .img_hero_div {
-          margin-top: 40px;
-          height: auto;
-
-      }
-  }
 
 
   @media screen and (max-width:768px) {
       .getstart {
-
           display: none !important;
       }
 
@@ -64,14 +49,10 @@
       font-weight: 600;
       font-size: 16px;
       line-height: 140%;
-
       text-align: center;
-
       color: #FFFFFF;
-
       margin-top: 30px;
   }
-
 
   @media screen and (max-width:768px) {
       .three_pairs {
@@ -92,30 +73,25 @@
       flex-direction: row;
       gap: 30px;
       padding-top: 40px;
-
   }
 
 
-  @media screen and (max-width:768px) {
-      .row {
-          display: flex;
-          justify-content: center;
-          align-items: flex-start;
-      }
-  }
-
-  @media screen and (max-width:768px) {
-      .img_hero_div {
-          padding-top: 40px;
-      }
-  }
 
   .net-two svg {
       margin-right: 15px;
       height: 100px;
   }
 
-  nav {
+
+  .net-two {
+      margin-right: auto;
+
+  }
+
+
+
+  .nav {
+
       margin-left: auto;
 
   }
@@ -126,12 +102,9 @@
       font-weight: 600;
       font-size: 16px;
       line-height: 140%;
-
       text-align: center;
-
       color: #FFFFFF;
       text-decoration: none;
-
   }
 
   nav button {
@@ -151,9 +124,7 @@
       font-weight: 600;
       font-size: 16px;
       line-height: 140%;
-
       text-align: center;
-
       color: #FFFFFF;
   }
 
@@ -286,9 +257,18 @@
   }
 
   .img_hero_div {
-      padding-top: 80px;
+
       width: 100%;
       height: auto;
+      padding-top: 80px;
+
+  }
+
+  @media screen and (max-width:768px) {
+      .img_hero_div {
+          margin-top: 0px;
+
+      }
   }
 
   /*------------------------ end header ----------------------------------*/
@@ -308,21 +288,18 @@
       }
   }
 
+
   @media screen and (max-width:768px) {
       .first_banner {
           padding-bottom: 40px;
       }
   }
 
-
-
   @media screen and (max-width:768px) {
       .second_banner {
           padding-bottom: 40px;
       }
   }
-
-
 
   .second_banner {
       padding-bottom: 82px;
@@ -388,6 +365,12 @@
 
   }
 
+  @media screen and (max-width:768px) {
+      .box-number {
+          height: 140px;
+      }
+  }
+
   .box-number span {
       font-family: Space Mono;
       font-style: normal;
@@ -421,7 +404,6 @@
           display: none !important;
       }
 
-
   }
 
   .fox_div span {
@@ -433,7 +415,6 @@
 
       color: #FFFFFF;
   }
-
 
 
   .group-img-three {
@@ -476,16 +457,10 @@
 
   /* ----------------------------------  end second banner -------------------------*/
 
-
   /*  ---------------------   third  banner         -----------------------------------------*/
 
 
-  @media screen and (max-width:768px) {
-      .third_banner {
 
-          padding-top: 40px;
-      }
-  }
 
   @media screen and (max-width:768px) {
       .third_1 {
@@ -566,31 +541,33 @@
           justify-content: start;
           align-items: center;
           gap: 20px;
+          position: relative;
       }
   }
 
 
   @media screen and (max-width:768px) {
-      .img-women {
+      .women_1_img img {
           width: 60px;
           height: 60px;
           justify-content: start;
           align-items: center;
-
+          position: relative;
       }
   }
 
   @media screen and (max-width:768px) {
       .texts-banner-3 {
-          justify-content: start;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
 
       }
   }
 
   @media screen and (max-width:768px) {
       .keepitreal {
-          width: 60px;
-          height: 60px;
+
           justify-content: start;
           align-items: center;
       }
@@ -655,6 +632,12 @@
   .third_banner {
       padding-top: 80px;
       padding-bottom: 80px;
+  }
+
+  @media screen and (max-width:768px) {
+      .third_banner {
+          padding-top: 40px;
+      }
   }
 
 
@@ -730,7 +713,7 @@
 
       background-color: #3B3B3B;
       width: 100%;
-      height: 238px;
+      height: auto;
 
       position: relative;
       border-radius: 20px;
@@ -748,7 +731,16 @@
       align-items: center;
       position: absolute;
       left: 20px;
-      top: 18px;
+      top: 22px;
+  }
+
+  @media screen and (max-width:768px) {
+      .runking_number_1 {
+          left: 75px;
+          top: 14px;
+          position: absolute;
+          z-index: 1;
+      }
   }
 
   .runking_number_1 span {
@@ -761,13 +753,21 @@
 
   }
 
+
+
   .img_women {
 
       display: flex;
       padding-top: 20px;
       justify-content: center;
 
+  }
 
+  @media screen and (max-width:768px) {
+      .img_women {
+          padding-top: 0px;
+          position: relative;
+      }
   }
 
   .keepitreal {
@@ -838,6 +838,10 @@
       padding-bottom: 80px;
   }
 
+  .texts-banner-3 {
+      padding-bottom: 20px;
+  }
+
 
 
   /*  ---------------------   fourth  banner         -----------------------------------------*/
@@ -872,6 +876,12 @@
   .fourth_banner {
       padding-bottom: 80px;
 
+  }
+
+  @media screen and (max-width:768px) {
+      .fourth_banner {
+          padding-bottom: 40px;
+      }
   }
 
 
@@ -1033,12 +1043,7 @@
 
   }
 
-  @media screen and (max-width:768px) {
-      .fifth_banner_text {
-          padding-top: 40px;
-          padding-bottom: 40px;
-      }
-  }
+
 
   @media screen and (max-width:768px) {
       .fifth_bt {
@@ -1109,7 +1114,13 @@
   .fifth_banner_text {
       padding-top: 80px;
       padding-bottom: 80px;
+  }
 
+  @media screen and (max-width:768px) {
+      .fifth_banner_text {
+          padding-top: 40px;
+          padding-bottom: 0px;
+      }
   }
 
   .img-fifth-1-div {
@@ -1209,8 +1220,10 @@
 
   @media screen and (max-width:768px) {
       .transbox {
-          padding: 120px 195px 40px;
+
+          padding: 0 !important;
           width: 100%;
+
           height: 590px;
           background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
       }
@@ -1222,6 +1235,14 @@
       flex-direction: column;
       gap: 30px;
   }
+
+  @media screen and (max-width:768px) {
+      .sixth-mush {
+          padding-left: 64px !important;
+      }
+  }
+
+
 
   .background-mushroom {
       background-image: url(../../images/mushroom-big.jpg);
@@ -1242,6 +1263,7 @@
       }
   }
 
+
   .transbox {
       position: absolute;
       height: 640px;
@@ -1254,7 +1276,6 @@
       justify-content: center;
       align-items: flex-end;
       padding: 360px 195px 60px;
-
 
       background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
   }
@@ -1295,6 +1316,13 @@
       color: #FFFFFF;
   }
 
+  .main-div {
+      display: flex;
+      flex-direction: colomn;
+      gap: 500px;
+      padding-bottom: 40px;
+  }
+
 
   .See-NFT {
       display: flex;
@@ -1320,6 +1348,7 @@
 
   @media screen and (max-width:768px) {
       .See-NFT {
+          width: 100%;
           height: 60px;
       }
   }
@@ -1345,6 +1374,7 @@
       }
   }
 
+
   .text-magic-div {
       padding-top: 30px;
       padding-bottom: 30px;
@@ -1365,6 +1395,12 @@
       border-radius: 20px;
   }
 
+  @media screen and (max-width:768px) {
+      .bg-timer {
+          width: 100%;
+
+      }
+  }
 
 
   .timer {
@@ -1406,6 +1442,12 @@
       flex-direction: row;
       gap: 10px;
 
+  }
+
+  @media screen and (max-width:768px) {
+      .time {
+          gap: 20px;
+      }
   }
 
   .Auction-div {
@@ -1471,12 +1513,6 @@
 
 
 
-  @media screen and (max-width:768px) {
-      .text-down-div {
-          width: 250px;
-          height: 117px;
-      }
-  }
 
   @media screen and (max-width:768px) {
       .text-How_it {
@@ -1504,20 +1540,6 @@
   @media screen and (max-width:768px) {
       .text-Setup {
           font-size: 16px;
-      }
-  }
-
-  @media screen and (max-width:768px) {
-      .text-connect {
-          font-size: 12px;
-
-      }
-  }
-
-  @media screen and (max-width:768px) {
-      .text-connect {
-          font-size: 12px;
-
       }
   }
 
@@ -1614,7 +1636,6 @@
 
       text-align: center;
       text-transform: capitalize;
-
       color: #FFFFFF;
   }
 
@@ -1630,8 +1651,15 @@
       color: #FFFFFF;
   }
 
+  @media screen and (max-width:768px) {
+      .text-connect {
+          font-size: 16px;
+
+      }
+  }
+
   .text-down-div {
-      display: flex;
+
       gap: 10px;
       flex-direction: column;
       padding-right: 30px;
@@ -1643,11 +1671,12 @@
       .text-down-div {
           width: 100%;
           height: auto;
-          padding-top: 30px;
-          justify-content: start;
+          padding-top: 20px;
 
       }
   }
+
+
 
   /*  ---------------------   eight  banner         -----------------------------------------*/
 
@@ -1878,6 +1907,7 @@
       height: 32px;
       align-items: center;
       gap: 8px;
+
 
   }
 
