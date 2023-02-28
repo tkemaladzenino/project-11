@@ -1113,13 +1113,13 @@
 
   .fifth_banner_text {
       padding-top: 80px;
-      padding-bottom: 80px;
+
   }
 
   @media screen and (max-width:768px) {
       .fifth_banner_text {
           padding-top: 40px;
-          padding-bottom: 0px;
+
       }
   }
 
