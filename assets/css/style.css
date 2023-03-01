@@ -83,12 +83,11 @@
   }
 
 
-  .net-two {
-      margin-right: auto;
+  .navbar {
+
+      margin-left: auto;
 
   }
-
-
 
   .nav {
 
@@ -229,6 +228,7 @@
           font-size: 22px;
       }
   }
+
 
   .tot {
       font-family: Work Sans;
@@ -505,9 +505,7 @@
       }
   }
 
-  .keepitreal_div span {
-      width: auto;
-  }
+
 
   @media screen and (max-width:768px) {
       .twelve {
@@ -536,17 +534,6 @@
 
 
   @media screen and (max-width:768px) {
-      .women_1_img {
-          display: flex;
-          justify-content: start;
-          align-items: center;
-          gap: 20px;
-          position: relative;
-      }
-  }
-
-
-  @media screen and (max-width:768px) {
       .women_1_img img {
           width: 60px;
           height: 60px;
@@ -556,14 +543,7 @@
       }
   }
 
-  @media screen and (max-width:768px) {
-      .texts-banner-3 {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
 
-      }
-  }
 
   @media screen and (max-width:768px) {
       .keepitreal {
@@ -622,13 +602,6 @@
   }
 
 
-
-  .texts-banner-3 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-  }
-
   .third_banner {
       padding-top: 80px;
       padding-bottom: 80px;
@@ -639,6 +612,7 @@
           padding-top: 40px;
       }
   }
+
 
 
 
@@ -721,6 +695,17 @@
       justify-content: center;
   }
 
+  @media screen and (max-width:768px) {
+      .women_1_img {
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          gap: 20px;
+          position: relative;
+          padding-left: 20px;
+      }
+  }
+
   .runking_number_1 {
       width: 30px;
       height: 30px;
@@ -736,8 +721,8 @@
 
   @media screen and (max-width:768px) {
       .runking_number_1 {
-          left: 75px;
-          top: 14px;
+          left: -7px;
+          top: -6px;
           position: absolute;
           z-index: 1;
       }
@@ -766,7 +751,7 @@
   @media screen and (max-width:768px) {
       .img_women {
           padding-top: 0px;
-          position: relative;
+          position: absolute;
       }
   }
 
@@ -816,6 +801,18 @@
 
   }
 
+  .keepitreal_div span {
+      width: auto;
+
+  }
+
+  @media screen and (max-width:768px) {
+      .keepitreal_div {
+          justify-content: start;
+
+      }
+  }
+
   .total_number_div {
       display: flex;
       flex-direction: row;
@@ -838,8 +835,20 @@
       padding-bottom: 80px;
   }
 
+
   .texts-banner-3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       padding-bottom: 20px;
+  }
+
+  @media screen and (max-width:768px) {
+      .texts-banner-3 {
+          display: flex;
+          padding-left: 100px;
+
+      }
   }
 
 
@@ -1527,23 +1536,6 @@
       }
   }
 
-
-  @media screen and (max-width:768px) {
-      .img-icon-div img {
-
-          max-width: 100px;
-          max-height: 100px;
-      }
-  }
-
-
-  @media screen and (max-width:768px) {
-      .text-Setup {
-          font-size: 16px;
-      }
-  }
-
-
   .seventh_banner {
       padding-bottom: 80px;
       padding-top: 80px;
@@ -1615,7 +1607,7 @@
           flex-direction: row;
           gap: 28.33px;
           height: auto;
-          align-items: center;
+
 
       }
   }
@@ -1640,6 +1632,13 @@
       }
   }
 
+  @media screen and (max-width:768px) {
+      .img-icon-div img {
+
+          max-width: 100px;
+          height: auto;
+      }
+  }
 
   .text-Setup {
       font-family: Work Sans;
@@ -1651,6 +1650,13 @@
       text-align: center;
       text-transform: capitalize;
       color: #FFFFFF;
+  }
+
+  @media screen and (max-width:768px) {
+      .text-Setup {
+          font-size: 16px;
+          text-align: start;
+      }
   }
 
   .text-connect {
@@ -1667,8 +1673,8 @@
 
   @media screen and (max-width:768px) {
       .text-connect {
-          font-size: 16px;
-
+          font-size: 12px;
+          text-align: start;
       }
   }
 
@@ -1683,9 +1689,9 @@
 
   @media screen and (max-width:768px) {
       .text-down-div {
-          width: 100%;
+
           height: auto;
-          padding-top: 20px;
+          padding-top: 30px;
 
       }
   }
