@@ -1549,6 +1549,13 @@
       padding-top: 80px;
   }
 
+  @media screen and (max-width:768px) {
+      .seventh_banner {
+          padding-top: 40px;
+          padding-bottom: 40px;
+      }
+  }
+
   .text-How_it {
       padding-bottom: 10px;
   }
