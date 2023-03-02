@@ -82,6 +82,23 @@
       height: 100px;
   }
 
+  @media screen and (max-width:768px) {
+      .net-two svg {
+          width: 24px;
+          height: 24px;
+      }
+
+  }
+
+  @media screen and (max-width:768px) {
+      .net-two img {
+          width: 199.41px;
+          height: 19.8px;
+      }
+
+  }
+
+
 
 
   .navbar {
@@ -194,6 +211,8 @@
           margin-left: 20px;
       }
   }
+
+
 
   .getstart {
       display: flex;
@@ -572,18 +591,6 @@
       }
   }
 
-  @media screen and (max-width:768px) {
-      .third_banner_button {
-          display: none !important;
-      }
-
-      .third_banner_button1 {
-          width: 315px;
-          height: auto;
-          padding-bottom: 40px;
-          display: block !important;
-      }
-  }
 
   .third_banner_button1 {
       display: none;
@@ -611,8 +618,8 @@
 
       color: #FFFFFF;
 
-
   }
+
 
 
   .third_banner {
@@ -626,7 +633,27 @@
       }
   }
 
+  @media screen and (max-width:768px) {
+      .third_banner_button {
+          display: none !important;
+      }
 
+      .third_banner_button1 {
+          width: 100%;
+          height: auto;
+          padding-bottom: 40px;
+          display: flex;
+          flex-direction: row;
+          align-items: flex-end;
+          padding: 0px;
+          gap: 100px;
+
+
+          height: 60px;
+
+          display: block !important;
+      }
+  }
 
 
   .top_text_third_banner {
