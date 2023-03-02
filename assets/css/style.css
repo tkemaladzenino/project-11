@@ -182,6 +182,12 @@
       }
   }
 
+  @media screen and (max-width:768px) {
+      li {
+          padding-bottom: 20px;
+      }
+  }
+
 
   .getstart {
       display: flex;
