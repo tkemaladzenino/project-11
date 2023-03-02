@@ -527,8 +527,6 @@
       }
   }
 
-
-
   @media screen and (max-width:768px) {
       .twelve {
           padding-bottom: 40px;
@@ -554,7 +552,6 @@
       }
   }
 
-
   @media screen and (max-width:768px) {
       .women_1_img img {
           width: 60px;
@@ -564,8 +561,6 @@
           position: relative;
       }
   }
-
-
 
   @media screen and (max-width:768px) {
       .keepitreal {
@@ -971,6 +966,12 @@
       color: #FFFFFF;
   }
 
+  @media screen and (max-width:768px) {
+      .art {
+          font-size: 16px;
+      }
+  }
+
   .group2-1 {
       display: flex;
       flex-direction: row;
@@ -987,6 +988,8 @@
       border-radius: 20px 20px 0px 0px;
 
   }
+
+
 
   .art-filter {
       position: absolute;
@@ -1006,9 +1009,19 @@
 
   }
 
-  .art-filter-svg {
+
+
+  .art-filter svg {
       position: absolute;
 
+  }
+
+  @media screen and (max-width:768px) {
+      .art-filter svg {
+          width: 80px;
+          height: 80px;
+
+      }
   }
 
 
