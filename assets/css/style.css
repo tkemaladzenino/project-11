@@ -15,8 +15,6 @@
   /*--------------------------------header--------------------*/
 
 
-
-
   @media screen and (max-width:768px) {
       .getstart {
           display: none !important;
@@ -95,22 +93,10 @@
           width: 199.41px;
           height: 19.8px;
       }
-
-  }
-
-
-
-
-  .navbar {
-
-      margin-left: auto;
-
   }
 
   .nav {
-
       margin-left: auto;
-
   }
 
   nav a {
@@ -193,6 +179,10 @@
       color: #FFFFFF;
   }
 
+  li {
+      padding-right: 30px;
+  }
+
   @media screen and (max-width:768px) {
       .ntf {
           font-size: 16px;
@@ -202,13 +192,13 @@
   @media screen and (max-width:768px) {
       li {
           padding-bottom: 20px;
-          padding-left: 20px;
+          padding-left: 10px;
       }
   }
 
   @media screen and (max-width:768px) {
       .menu-1 {
-          margin-left: 20px;
+          margin-left: 10px;
       }
   }
 
