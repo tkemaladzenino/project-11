@@ -27,6 +27,37 @@
       }
   }
 
+  .navbar-toggler {
+      width: 50px;
+      height: 40px;
+
+  }
+
+  .net-two svg {
+      margin-right: 15px;
+      height: 32px;
+  }
+
+  @media screen and (max-width:768px) {
+      .net-two svg {
+          width: 24px;
+          height: 24px;
+      }
+
+  }
+
+  .net-two img {
+      width: 199.56px;
+      height: 19.8px;
+  }
+
+  @media screen and (max-width:768px) {
+      .net-two img {
+          width: 149.56px;
+          height: 14.85px;
+      }
+  }
+
   .getstart1 {
       display: none;
       flex-direction: row;
@@ -73,8 +104,6 @@
       padding-top: 40px;
   }
 
-
-
   .net-two svg {
       margin-right: 15px;
       height: 100px;
@@ -85,13 +114,12 @@
           width: 24px;
           height: 24px;
       }
-
   }
 
   @media screen and (max-width:768px) {
       .net-two img {
-          width: 199.41px;
-          height: 19.8px;
+          width: 149.56px;
+          height: 14.8px;
       }
   }
 
