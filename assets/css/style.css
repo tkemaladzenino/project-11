@@ -130,6 +130,7 @@
 
   .nav {
       margin-left: auto;
+
   }
 
   nav a {
@@ -1548,7 +1549,7 @@
 
   @media screen and (max-width:768px) {
       .fifth_banner_text {
-          padding-top: 40px;
+          padding-top: 36px;
 
       }
   }
@@ -2718,10 +2719,16 @@
       border-radius: 20px;
   }
 
+
+  .third-b {
+      border-bottom: 2px solid #858584
+  }
+
   .third-1-div {
       display: flex;
       flex-direction: row;
       gap: 16px;
+
   }
 
   .owned {
@@ -2763,9 +2770,13 @@
       border-radius: 20px;
   }
 
+  .third-bord {
+      border-top: 1px solid #3B3B3B;
+  }
+
   .third-r {
       padding-top: 10px;
-      border-top: 1px solid #3B3B3B;
+
   }
 
 
@@ -2826,6 +2837,8 @@
       background: #2B2B2B;
       border-radius: 20px;
   }
+
+
 
   .text-banner-5-1 {
       display: flex;
@@ -2946,8 +2959,12 @@
       height: 32px;
       align-items: center;
       gap: 8px;
+  }
 
-
+  @media screen and (max-width:768px) {
+      .net-two1 {
+          padding-top: 60px;
+      }
   }
 
   .text-NFT_marketplace {
