@@ -3405,7 +3405,7 @@
 
   @media screen and (max-width:768px) {
       .net-two1 {
-          padding-top: 60px;
+          padding-top: 40px;
       }
   }
 
@@ -3616,7 +3616,7 @@
       .btn-14 {
           width: 100% !important;
           padding-left: 0px;
-          padding-bottom: 40px;
+          padding-bottom: 0px;
       }
   }
 
