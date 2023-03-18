@@ -523,6 +523,7 @@
       border: 1px solid #858584;
       border-radius: 20px;
       border: none;
+      outline: none;
   }
 
   @media screen and (max-width:768px) {
