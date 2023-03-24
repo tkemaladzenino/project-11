@@ -4121,6 +4121,7 @@
       }
   }
 
+
   .bg-timer-15-1 .hours-minut-second {
       padding-bottom: 30px;
   }
@@ -4137,6 +4138,11 @@
           display: block !important;
       }
   }
+
+  .bg-timer-15-1 {
+      display: none;
+  }
+
 
   .bg-timer-15 .hours-minut-second {
       padding-bottom: 30px;
@@ -4158,6 +4164,7 @@
           gap: 22%;
       }
   }
+
 
 
 
