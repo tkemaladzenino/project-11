@@ -4121,7 +4121,6 @@
       }
   }
 
-
   .bg-timer-15-1 .hours-minut-second {
       padding-bottom: 30px;
   }
@@ -4137,10 +4136,6 @@
           height: auto;
           display: block !important;
       }
-  }
-
-  .bg-timer-15-1 {
-      display: none;
   }
 
 
@@ -4165,7 +4160,9 @@
       }
   }
 
-
+  .bg-timer-15-1 {
+      display: none !important;
+  }
 
 
   @media screen and (max-width:768px) {
@@ -4297,6 +4294,15 @@
 
       .bg-timer-15-1 .time {
           gap: 10%;
+
+      }
+  }
+
+
+  @media screen and (max-width:414px) {
+
+      .fourth-r .two-2 {
+          gap: 8%;
 
       }
   }
