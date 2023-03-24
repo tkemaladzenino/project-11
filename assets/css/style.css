@@ -16,6 +16,10 @@
       background-color: #2b2b2b;
   }
 
+  .main1-15 {
+      background-color: #2b2b2b;
+  }
+
   /*--------------------------------header----------------------------*/
 
 
@@ -3724,6 +3728,15 @@
       color: #FFFFFF;
   }
 
+  @media screen and (max-width:768px) {
+      .Orbitians-text {
+
+          font-size: 28px;
+      }
+  }
+
+
+
   .minted-text {
       font-family: 'Work Sans';
       font-style: normal;
@@ -3732,6 +3745,13 @@
       line-height: 160%;
       text-transform: capitalize;
       color: #858584;
+  }
+
+  @media screen and (max-width:768px) {
+      .minted-text {
+
+          font-size: 16px;
+      }
   }
 
   .text-CreatedBy-div {
@@ -3748,6 +3768,13 @@
       color: #858584;
   }
 
+  @media screen and (max-width:768px) {
+      .text-CreatedBy {
+
+          font-size: 16px;
+      }
+  }
+
   .orbitian-two-div h5 {
       font-family: Work Sans;
       font-style: normal;
@@ -3758,9 +3785,44 @@
       color: #FFFFFF;
   }
 
+  .orbitian-two-div-1 h5 {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 140%;
+      text-transform: capitalize;
+      color: #FFFFFF;
+  }
+
+  @media screen and (max-width:768px) {
+      .orbitian-two-div-1 h5 {
+
+          font-size: 16px;
+      }
+  }
+
+
+  .orbitian-two-div-1 {
+      display: none !important;
+  }
+
+  @media screen and (max-width:768px) {
+
+      .orbitian-two-div {
+          display: none !important;
+      }
+
+      .orbitian-two-div-1 {
+          display: block !important;
+      }
+  }
+
   .Description-div {
       padding-top: 30px;
   }
+
+
 
   .Description-div h5 {
       font-family: Space Mono;
@@ -3770,6 +3832,13 @@
       line-height: 160%;
       text-transform: capitalize;
       color: #858584;
+  }
+
+  @media screen and (max-width:768px) {
+      .Description-div h5 {
+
+          font-size: 16px;
+      }
   }
 
   .Content-div {
@@ -3810,7 +3879,7 @@
   }
 
   .Details-div h5 {
-      font-family: 'Space Mono';
+      font-family: Space Mono;
       font-style: normal;
       font-weight: 700;
       font-size: 22px;
@@ -3822,6 +3891,13 @@
       color: #858584;
   }
 
+  @media screen and (max-width:768px) {
+      .Details-div h5 {
+
+          font-size: 16px;
+      }
+  }
+
   .Globals-div-1 span {
       font-family: Work Sans;
       font-style: normal;
@@ -3831,6 +3907,29 @@
       color: #FFFFFF;
   }
 
+  @media screen and (max-width:768px) {
+      .Globals-div-1 svg {
+
+          width: 24px;
+          height: 24px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .Globals-div-2 svg {
+
+          width: 24px;
+          height: 24px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .Globals-div-1 span {
+
+          font-size: 16px;
+      }
+  }
+
   .Globals-div-2 span {
       font-family: Work Sans;
       font-style: normal;
@@ -3838,6 +3937,13 @@
       font-size: 22px;
       line-height: 160%;
       color: #FFFFFF;
+  }
+
+  @media screen and (max-width:768px) {
+      .Globals-div-2 span {
+
+          font-size: 16px;
+      }
   }
 
   .Globals-div-1 {
@@ -3861,6 +3967,12 @@
 
       text-transform: capitalize;
       color: #858584;
+  }
+
+  @media screen and (max-width:768px) {
+      .Tags-div h5 {
+          font-size: 16px;
+      }
   }
 
   .buttons-15 {
@@ -3896,11 +4008,18 @@
       font-family: Work Sans;
       font-style: normal;
       font-weight: 600;
-      font-size: 28px;
+      font-size: 38px;
       line-height: 140%;
 
       text-transform: capitalize;
       color: #FFFFFF;
+  }
+
+  @media screen and (max-width:768px) {
+      .More-text {
+
+          font-size: 28px;
+      }
   }
 
 
@@ -4021,12 +4140,26 @@
 
   .bg-timer-15 .hours-minut-second {
       padding-bottom: 30px;
+      padding-top: 10px;
+  }
+
+  @media screen and (max-width:768px) {
+
+      .bg-timer-15-1 .hours-minut-second {
+
+          gap: 28%;
+      }
+  }
+
+  @media screen and (max-width:414px) {
+
+      .bg-timer-15-1 .hours-minut-second {
+
+          gap: 22%;
+      }
   }
 
 
-  .bg-timer-15-1 {
-      display: none;
-  }
 
   @media screen and (max-width:768px) {
 
@@ -4052,6 +4185,7 @@
 
   .More-div {
       padding-top: 80px;
+
   }
 
   @media screen and (max-width:768px) {
@@ -4123,4 +4257,39 @@
 
   .bg-timer-15-1 .hours-minut-second {
       padding-bottom: 30px;
+  }
+
+
+  @media screen and (max-width:768px) {
+
+      .bg-timer-15-1 .hours-minut-second {
+          padding-bottom: 30px;
+          padding-top: 10px;
+
+      }
+  }
+
+
+  @media screen and (max-width:768px) {
+
+      .bg-timer-15-1 .time {
+          gap: 13%;
+
+      }
+  }
+
+  @media screen and (max-width:414px) {
+
+      .bg-timer-15-1 .time {
+          gap: 10%;
+
+      }
+  }
+
+  @media screen and (max-width:320px) {
+
+      .bg-timer-15-1 .time {
+          gap: 10%;
+
+      }
   }
