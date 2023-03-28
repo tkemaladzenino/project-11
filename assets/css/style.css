@@ -3311,7 +3311,7 @@
   .two-1 {
       display: flex;
       flex-direction: row;
-      gap: 230px;
+      justify-content: space-between;
 
   }
 
@@ -3344,7 +3344,7 @@
   .two-2 {
       display: flex;
       flex-direction: row;
-      gap: 180px;
+      justify-content: space-between;
   }
 
   @media screen and (max-width:320px) {
