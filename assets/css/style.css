@@ -4306,3 +4306,128 @@
 
       }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*--------------------------             16  NFT Page   -------------------------------------------------*/
+
+
+  .Browse-Marketplace-div {
+      padding-top: 80px;
+  }
+
+  @media screen and (max-width:768px) {
+      .Browse-Marketplace-div {
+          padding-top: 40px;
+      }
+  }
+
+
+  .Browse-Marketplace-div h2 {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 51px;
+      line-height: 110%;
+      display: flex;
+      align-items: center;
+      text-transform: capitalize;
+      color: #FFFFFF;
+  }
+
+  @media screen and (max-width:768px) {
+      .Browse-Marketplace-div h2 {
+          font-size: 28px;
+      }
+  }
+
+
+  .Browse-Marketplace-div p {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 160%;
+      color: #FFFFFF;
+  }
+
+  @media screen and (max-width:768px) {
+      .Browse-Marketplace-div p {
+          font-size: 16px;
+      }
+  }
+
+
+
+  .Search-your-div p {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      color: #858584;
+      padding-top: 14px;
+  }
+
+  .Search-your-div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 73%;
+      width: 1050px;
+      height: 60px;
+      border: 1px solid #3B3B3B;
+      border-radius: 20px;
+      background-color: transparent;
+  }
+
+  @media screen and (max-width:768px) {
+      .Search-your-div {
+          gap: 30%;
+          width: 100%;
+      }
+  }
+
+  .first-16 {
+      padding-bottom: 80px;
+  }
+
+
+  @media screen and (max-width:768px) {
+      .fluid-16 {
+          display: none !important;
+      }
+
+      .fluid-16-mobile {
+          display: block !important;
+          background-color: #3B3B3B;
+      }
+  }
+
+  .fluid-16-mobile {
+      display: none;
+  }
+
+  .img-fifth-1-div-16 {
+      background-color: #2B2B2B;
+      border-radius: 20px;
+  }
+
+  .img-fifth-1-div-16 img {
+
+      border-radius: 20px 20px 0px 0px;
+  }
