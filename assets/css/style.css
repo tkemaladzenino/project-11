@@ -4459,3 +4459,161 @@
 
       border-radius: 20px 20px 0px 0px;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*----------------------------  Ranking-17 _-------------------------------------*/
+
+  .Top-Creators-17-div h2 {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 51px;
+      line-height: 110%;
+      display: flex;
+      align-items: center;
+      text-transform: capitalize;
+      color: #FFFFFF;
+  }
+
+  @media screen and (max-width:768px) {
+      .Top-Creators-17-div h2 {
+          font-size: 28px;
+      }
+  }
+
+  .Top-Creators-17-div {
+      padding-top: 80px;
+      padding-bottom: 80px;
+  }
+
+  .Top-Creators-17-div p {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 160%;
+
+      color: #FFFFFF;
+  }
+
+  @media screen and (max-width:768px) {
+      .Top-Creators-17-div p {
+          font-size: 16px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .Top-Creators-17-div {
+          padding-top: 40px;
+          padding-bottom: 30px;
+      }
+  }
+
+  .Today {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 140%;
+      text-align: center;
+      text-transform: capitalize;
+      color: #FFFFFF;
+  }
+
+  .this-week {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 140%;
+      text-align: center;
+      text-transform: capitalize;
+      color: #858584;
+  }
+
+
+
+
+
+  /*    ----------------- third -bunner--------------------------*/
+
+  .women-17-div {
+
+      background-color: #3B3B3B;
+      width: 100%;
+      height: auto;
+      display: flex;
+
+      border-radius: 20px;
+      align-items: center;
+
+  }
+
+  .img-women-17 {
+
+      display: flex;
+      padding-top: 12px;
+      padding-bottom: 12px;
+
+      align-items: center;
+
+  }
+
+  .runking-number-17 {
+      width: 30px;
+      height: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+
+      border-radius: 50%;
+      background-color: #2B2B2B;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .img-women-17 img {
+      padding-right: 20px;
+  }
+
+
+
+  .runking-number-17 span {
+      font-family: Space Mono;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      color: #858584;
+
+  }
+
+  .texts-banner-17 {
+      display: flex;
+      flex-direction: row;
+
+      justify-content: space-between;
+      gap: 210px;
+  }
+
+  .persent p {
+      font-family: Space Mono;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+
+      color: #00AC4F;
+  }
